@@ -1,0 +1,36 @@
+/** @format */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.header div nav ul li a {
+  color: #212121;
+}
+.header nav ul li a:hover {
+  color: #2196f3;
+}
+.header div ul li a {
+  color: #757575;
+}
+.header div ul li a:hover {
+  color: #2196f3;
+}
+/* Второй блок  */
+
+.main .menu li a {
+  display: block;
+  border-radius: 4px;
+  width: 73px;
+  height: 38px;
+  background-color: #f5f4fa;
+  text-align: center;
+  color: #212121;
+}
+.main .menu li a:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+/* background-color: #2196f3; */
