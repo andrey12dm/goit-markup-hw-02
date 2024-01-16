@@ -1,15 +1,16 @@
 /** @format */
+* {
+  box-sizing: border-box;
+}
 body {
+  max-width: 1600px;
+  margin: 0px auto;
   font-family: Roboto;
   font-size: 14px;
   font-weight: normal;
 }
 h3 {
   font-weight: 700px;
-}
-.conteiner {
-  max-width: 1600px;
-  margin: 0 auto;
 }
 ul {
   list-style-type: none;
@@ -34,18 +35,45 @@ a {
 .main .menu li a {
   display: block;
   border-radius: 4px;
-  width: 73px;
-  height: 38px;
+  padding: 6px 22px;
   background-color: #f5f4fa;
   text-align: center;
   color: #212121;
-  padding: 6px 22px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.menu ul {
+  display: flex;
+  gap: 50px;
+}
+.hed {
+  display: flex;
+}
+.tel ul {
+  display: flex;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.title ul li {
+  display: flex;
+}
+.title ul li {
 }
 .item ul {
   display: flex;
   justify-content: center;
+  gap: 8px;
 }
 .main .menu li a:hover {
   background-color: #2196f3;
   color: #fff;
+}
+.innet ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }
