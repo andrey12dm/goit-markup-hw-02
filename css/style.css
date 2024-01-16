@@ -60,8 +60,6 @@ header {
 .title ul li {
   display: flex;
 }
-.title ul li {
-}
 .item ul {
   display: flex;
   justify-content: center;
