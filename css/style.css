@@ -3,11 +3,16 @@
   box-sizing: border-box;
 }
 body {
-  max-width: 1600px;
-  margin: 0px auto;
+  /* max-width: 1600px;
+  margin: 0 auto;
+  padding: 0px 15px; */
   font-family: Roboto;
   font-size: 14px;
   font-weight: normal;
+}
+.conteiner {
+  max-width: 1460px;
+  margin: 0 auto;
 }
 h3 {
   font-weight: 700px;
@@ -17,6 +22,9 @@ ul {
 }
 a {
   text-decoration: none;
+}
+.header {
+  display: flex;
 }
 .header div nav ul li a {
   color: #212121;
@@ -31,9 +39,13 @@ a {
   color: #2196f3;
 }
 /* Второй блок  */
-
-.main .menu li a {
-  display: block;
+.menu {
+  /* display: flex; */
+}
+/* .tel {
+  display: ;
+} */
+.main .menu__tow li a {
   border-radius: 4px;
   padding: 6px 22px;
   background-color: #f5f4fa;
@@ -43,29 +55,12 @@ a {
   font-style: normal;
   font-weight: 500;
 }
-.menu ul {
-  display: flex;
-  gap: 50px;
-}
-.hed {
-  display: flex;
-}
-.tel ul {
-  display: flex;
-}
-header {
-  display: flex;
-  justify-content: center;
-}
-.title ul li {
-  display: flex;
-}
 .item ul {
   display: flex;
-  justify-content: center;
-  gap: 8px;
+  /* justify-content: center; */
+  /* gap: 8px; */
 }
-.main .menu li a:hover {
+.main .menu__tow li a:hover {
   background-color: #2196f3;
   color: #fff;
 }
@@ -73,5 +68,5 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: center;
+  /* justify-content: center; */
 }
