@@ -127,6 +127,7 @@ a {
 }
 .nav {
   margin-left: 90px;
+  font-weight: 500;
 }
 .blog {
   display: flex;
@@ -217,11 +218,13 @@ a {
 ul li {
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
 }
 .adres p {
   color: #fff;
+  font-weight: 400;
+  font-family: Roboto;
 }
 .adres a {
   color: rgba(255, 255, 255, 0.6);
