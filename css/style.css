@@ -93,7 +93,7 @@ html {
 .wrapper {
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 .innet ul li div h3 {
   font-weight: 700;
@@ -177,7 +177,6 @@ a {
   color: #fff;
 }
 .innet {
-  box-sizing: border-box;
   margin-top: 50px;
 }
 .item .menu__tow :not(:last-child) {
@@ -190,8 +189,10 @@ a {
   justify-content: center;
 }
 .innet ul li div {
+  box-sizing: border-box;
   width: 370px;
-  border: 1px solid #eee;
+  flex-shrink: 0;
+  /* border: 1px solid #eee; */
 }
 .innet ul li div h3 {
   margin: 20px 24px 0;
@@ -222,11 +223,11 @@ ul li {
   font-weight: 500;
   line-height: 24px;
 }
-.adres a {
+.meps {
   color: #fff;
   font-weight: 400;
   font-family: Roboto;
 }
-.adres a {
+.adres ul li a {
   color: rgba(255, 255, 255, 0.6);
 }
